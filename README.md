@@ -1,4 +1,8 @@
-# Hi, I'm Gunny 👋
+<div align="center">
+
+![header](./header.svg)
+
+</div>
 
 ---
 
@@ -9,7 +13,7 @@
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 
-**MCU & Hardware**
+**MCU / Hardware**
 
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
@@ -51,32 +55,34 @@
 
 | 프로젝트 | 설명 | 태그 | 링크 |
 |---|---|---|---|
-| DRONE | 드론 프로젝트 | `C` `STM32` `CMake` `HAL` `UART` `Lo-Ra` | [Git(X)](https://github.com/gitgunny/drone) |
-| STM32F103RB_NUCLEO_BSP | STM32F103RB Nucleo 보드용 BSP | `C` `STM32` `CMake` `HAL` `UART` `DMA` | [Git](https://github.com/gitgunny/stm32f103rb_nucleo_bsp) |
-| APP_CLI | UART 기반 CLI 모듈 | `C` `UART` `DMA` | [Git](https://github.com/gitgunny/app_cli) |
-| STM32F103_Doorlock_IoT | UART 패킷 분석을 통한 도어락 IoT 원격 제어 | `C` `STM32` `UART` `Bluetooth` `Wi-Fi` `Reverse Engineering` | [Git](https://github.com/gitgunny/STM32F103_Doorlock_IoT_SHS-6601) / [Blog](https://gun-ny.tistory.com/132) |
-| AC Auto Controller | 차량 데이터 기반 지능형 에어컨 부하 제어 모듈 | `C` `ESP32` `CAN` `FreeRTOS` `PCB` | [Blog](https://gun-ny.tistory.com/133) |
-| Mohave AC Status Module | 모하비 아날로그 공조 신호 파싱 및 안드로이드 올인원 공조기 상태 표시 | `C` `ATmega` `UART` `Analog` `PCB` | [Blog](https://gun-ny.tistory.com/82) |
+| STM32_BSP_DRONE | (드론 프로젝트 진행 예정) | `C` `STM32` `CMake` `HAL` `UART` `Lo-Ra` |   |
+| STM32_BSP_CLI | UART 기반 CLI 모듈 | `C` `UART` `DMA` |   |
+| STM32F103RB_NUCLEO_BSP | STM32F103RB Nucleo 보드용 BSP | `C` `STM32` `CMake` `HAL` `UART` `DMA` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/stm32f103rb_nucleo_bsp) |
+| AC Auto Controller | 차량 데이터 기반 지능형 에어컨 부하 제어 모듈 | `C` `ESP32` `CAN` `FreeRTOS` `PCB` | [![Blog](https://img.shields.io/badge/-000000?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/133) [![YouTube](https://img.shields.io/badge/-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/JiHXOkunCxU) |
+| KIA Mohave AC Status Module | 모하비 공조 신호 파싱 및 안드로이드 올인원 공조기 상태 표시 | `C` `ATmega` `UART` `Analog` `PCB` | [![Blog](https://img.shields.io/badge/-000000?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/82) [![YouTube](https://img.shields.io/badge/-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/QrPpHxcSz7M) |
+| STM32F103_Doorlock_IoT | UART 패킷 분석을 통한 도어락 IoT 원격 제어 | `C` `STM32` `UART` `Bluetooth` `Wi-Fi` `Reverse Engineering` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/STM32F103_Doorlock_IoT_SHS-6601) [![Blog](https://img.shields.io/badge/-000000?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/132) [![YouTube](https://img.shields.io/badge/-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/LQYAwjEyFG4) |
+
+<!-- [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/...) -->
+<!-- [![Blog](https://img.shields.io/badge/-000000?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/...) -->
+<!-- [![YouTube](https://img.shields.io/badge/-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/...) -->
 
 ### System Software
 
 | 프로젝트 | 설명 | 태그 | 링크 |
 |---|---|---|---|
-| Buildroot_RPi5_Qt_GUI | Buildroot 기반 커스텀 리눅스 환경 구축 및 Qt 디지털 계기판 | `C++` `Qt` `QML` `Buildroot` `Embedded Linux` `CAN` `SPI` | [Git](https://github.com/gitgunny/Buildroot_RPi5_Qt_GUI) / [Blog](https://gun-ny.tistory.com/134) |
+| Buildroot_RPi5_Qt_GUI | Buildroot 기반 커스텀 리눅스 환경 구축 및 Qt 디지털 계기판 | `C++` `Qt` `QML` `Buildroot` `Embedded Linux` `CAN` `SPI` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/Buildroot_RPi5_Qt_GUI) [![Blog](https://img.shields.io/badge/-000000?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/134) [![YouTube](https://img.shields.io/badge/-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/eqxOk7hX7l4) |
 
 ---
 
-## 📊 GitHub Stats
+## 📡 Links
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gitgunny&show_icons=true&theme=dark&hide_border=true)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@gun-ny)
+[![Blog](https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=tistory&logoColor=white)](https://gun-ny.tistory.com)
 
 ---
 
-## 📺 YouTube / 📝 Blog
+<div align="center">
 
-실제 동작 영상과 프로젝트 작업기를 확인할 수 있습니다.
+![footer](./footer.svg)
 
-| | 링크 |
-|---|---|
-| 📺 YouTube | [youtube.com/@gun-ny](https://www.youtube.com/@gun-ny) |
-| 📝 Blog | [gun-ny.tistory.com](https://gun-ny.tistory.com) |
+</div>

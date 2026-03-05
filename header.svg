@@ -1,0 +1,196 @@
+<svg width="860" height="200" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, monospace">
+  <defs>
+    <style>
+      .grid-fade { animation: gridPulse 3s ease-in-out infinite; }
+      .ch1-wave { animation: drawWave1 2s linear infinite; stroke-dasharray: 1200; stroke-dashoffset: 1200; }
+      .ch2-wave { animation: drawWave2 2.4s linear infinite; stroke-dasharray: 1000; stroke-dashoffset: 1000; }
+      .ch3-wave { animation: drawWave3 1.8s linear infinite; stroke-dasharray: 900; stroke-dashoffset: 900; }
+      .trig-blink { animation: trigBlink 1s step-end infinite; }
+      .name-fade { animation: nameFade 2s ease-in forwards; }
+      .measure1 { animation: measureUpdate 0.8s step-end infinite; }
+      .measure2 { animation: measureUpdate2 1.3s step-end infinite; }
+      .measure3 { animation: measureUpdate3 0.6s step-end infinite; }
+      .scan-line { animation: scanLine 2s linear infinite; }
+      .ch-label1 { animation: chBlink1 2s step-end infinite; }
+      .ch-label2 { animation: chBlink2 2.4s step-end infinite; }
+      .ch-label3 { animation: chBlink3 1.8s step-end infinite; }
+      .status-blink { animation: statusBlink 1.5s step-end infinite; }
+
+      @keyframes gridPulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.7; }
+      }
+      @keyframes drawWave1 {
+        0% { stroke-dashoffset: 1200; opacity: 0.3; }
+        30% { opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: 1; }
+      }
+      @keyframes drawWave2 {
+        0% { stroke-dashoffset: 1000; opacity: 0.3; }
+        30% { opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: 1; }
+      }
+      @keyframes drawWave3 {
+        0% { stroke-dashoffset: 900; opacity: 0.3; }
+        30% { opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: 1; }
+      }
+      @keyframes trigBlink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0.2; }
+      }
+      @keyframes nameFade {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      @keyframes measureUpdate {
+        0%, 60% { opacity: 1; }
+        61%, 80% { opacity: 0.3; }
+        81%, 100% { opacity: 1; }
+      }
+      @keyframes measureUpdate2 {
+        0%, 70% { opacity: 1; }
+        71%, 85% { opacity: 0.3; }
+        86%, 100% { opacity: 1; }
+      }
+      @keyframes measureUpdate3 {
+        0%, 75% { opacity: 1; }
+        76%, 88% { opacity: 0.3; }
+        89%, 100% { opacity: 1; }
+      }
+      @keyframes scanLine {
+        0% { transform: translateX(-600px); opacity: 0.15; }
+        100% { transform: translateX(870px); opacity: 0.15; }
+      }
+      @keyframes chBlink1 {
+        0%, 85% { fill: #ffcc00; }
+        86%, 100% { fill: #aa8800; }
+      }
+      @keyframes chBlink2 {
+        0%, 85% { fill: #00aaff; }
+        86%, 100% { fill: #005588; }
+      }
+      @keyframes chBlink3 {
+        0%, 85% { fill: #00ff88; }
+        86%, 100% { fill: #00aa44; }
+      }
+      @keyframes statusBlink {
+        0%, 60% { opacity: 1; }
+        61%, 100% { opacity: 0; }
+      }
+    </style>
+
+    <pattern id="grid" width="43" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 43 0 L 0 0 0 40" fill="none" stroke="#1a1a2e" stroke-width="0.5"/>
+    </pattern>
+
+    <!-- 파형 글로우 필터 -->
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="nameGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="waveClip">
+      <rect x="50" y="0" width="555" height="200"/>
+    </clipPath>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="860" height="200" fill="#0a0a0f"/>
+  <rect width="860" height="200" fill="url(#grid)" class="grid-fade"/>
+
+  <!-- 스캔 라인 효과 -->
+  <rect class="scan-line" x="0" y="0" width="3" height="200" fill="#ffffff" opacity="0.15"/>
+
+  <!-- CH1 UART 라벨 -->
+  <text x="12" y="38" font-size="10" font-weight="bold" class="ch-label1">CH1</text>
+  <text x="12" y="50" font-size="9" class="ch-label1">UART</text>
+
+  <!-- CH1 UART 파형 -->
+  <g clip-path="url(#waveClip)">
+    <polyline class="ch1-wave" filter="url(#glow1)" points="
+      55,55 85,55 85,25 98,25 98,55 111,55 111,25 124,25 124,55
+      137,55 137,25 150,25 150,55 163,55 163,25 176,25 176,55
+      189,55 202,55 202,25 215,25 215,55 228,55 228,25 241,25 241,55
+      254,55 267,55 267,25 280,25 280,55 293,55 306,55 306,25 319,25 319,55
+      332,55 345,55 345,25 358,25 358,55 371,55 384,55 397,55
+      410,55 423,55 423,25 436,25 436,55 449,55 449,25 462,25 462,55
+      475,55 488,55 488,25 501,25 501,55 514,55 527,55 527,25 540,25 540,55
+      553,55 600,55
+    " fill="none" stroke="#ffcc00" stroke-width="1.8"/>
+  </g>
+
+  <!-- CH2 CAN 라벨 -->
+  <text x="12" y="108" font-size="10" font-weight="bold" class="ch-label2">CH2</text>
+  <text x="12" y="120" font-size="9" class="ch-label2">CAN</text>
+
+  <!-- CH2 CAN 파형 -->
+  <g clip-path="url(#waveClip)">
+    <polyline class="ch2-wave" filter="url(#glow2)" points="
+      55,125 75,125 75,105 85,105 85,125 95,125 95,105 105,105 105,125
+      115,125 125,125 125,105 135,105 135,125 145,125 145,105 155,105 155,125
+      165,125 175,125 185,125 185,105 195,105 195,125 205,125 215,125
+      225,125 225,105 235,105 235,125 245,125 255,125 255,105 265,105 265,125
+      275,125 285,125 285,105 295,105 295,125 305,125 315,125 325,125
+      325,105 335,105 335,125 345,125 355,125 355,105 365,105 365,125
+      375,125 385,125 395,125 395,105 405,105 405,125 415,125 425,125
+      435,125 435,105 445,105 445,125 455,125 465,125 465,105 475,105 475,125
+      485,125 495,125 505,125 505,105 515,105 515,125 525,125 535,125
+      545,125 545,105 555,105 555,125 600,125
+    " fill="none" stroke="#00aaff" stroke-width="1.8"/>
+  </g>
+
+  <!-- CH3 SPI 라벨 -->
+  <text x="12" y="158" font-size="10" font-weight="bold" class="ch-label3">CH3</text>
+  <text x="12" y="170" font-size="9" class="ch-label3">SPI</text>
+
+  <!-- CH3 SPI 파형 -->
+  <g clip-path="url(#waveClip)">
+    <polyline class="ch3-wave" filter="url(#glow1)" points="
+      55,180 65,180 65,160 70,160 70,180 75,180 75,160 80,160 80,180
+      85,180 85,160 90,160 90,180 95,180 95,160 100,160 100,180
+      115,180 115,160 120,160 120,180 125,180 125,160 130,160 130,180
+      135,180 135,160 140,160 140,180 145,180 145,160 150,160 150,180
+      165,180 165,160 170,160 170,180 175,180 175,160 180,160 180,180
+      185,180 185,160 190,160 190,180 195,180 195,160 200,160 200,180
+      215,180 215,160 220,160 220,180 225,180 225,160 230,160 230,180
+      235,180 235,160 240,160 240,180 245,180 245,160 250,160 250,180
+      265,180 265,160 270,160 270,180 275,180 275,160 280,160 280,180
+      285,180 285,160 290,160 290,180 295,180 295,160 300,160 300,180
+      600,180
+    " fill="none" stroke="#00ff88" stroke-width="1.8"/>
+  </g>
+
+  <!-- 트리거 라인 -->
+  <line class="trig-blink" x1="55" y1="0" x2="55" y2="200" stroke="#ff4444" stroke-width="1" stroke-dasharray="4,3"/>
+  <text class="trig-blink" x="57" y="12" fill="#ff4444" font-size="9">TRIG</text>
+
+  <!-- 정보 패널 -->
+  <rect x="612" y="10" width="238" height="180" fill="#050510" rx="4" stroke="#3333aa" stroke-width="1"/>
+  <rect x="612" y="10" width="238" height="22" fill="#0d0d2e" rx="4"/>
+  <text x="622" y="25" fill="#4444cc" font-size="9">RIGOL DS1054Z  CH:3</text>
+  <text x="776" y="25" font-size="9" class="status-blink" fill="#00ff41">TRIGGED</text>
+  <line x1="612" y1="32" x2="850" y2="32" stroke="#222255" stroke-width="1"/>
+
+  <!-- 이름 -->
+  <text x="731" y="90" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="bold" filter="url(#nameGlow)" class="name-fade">gitgunny</text>
+  <text x="731" y="118" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="bold" filter="url(#nameGlow)" class="name-fade">GITHUB</text>
+  <text x="731" y="140" text-anchor="middle" fill="#8888cc" font-size="9" letter-spacing="1" class="name-fade">EMBEDDED FIRMWARE DEV</text>
+
+  <!-- 측정값 -->
+  <line x1="612" y1="152" x2="850" y2="152" stroke="#222255" stroke-width="1"/>
+  <text x="622" y="164" font-size="9" class="measure1" fill="#ffcc00">115.2kHz</text>
+  <text x="690" y="164" font-size="9" class="measure2" fill="#00aaff">500kbps</text>
+  <text x="760" y="164" font-size="9" class="measure3" fill="#00ff88">8MHz</text>
+  <text x="622" y="178" font-size="9" fill="#444488">Vpp:3.3V</text>
+  <text x="690" y="178" font-size="9" fill="#444488">Vpp:3.3V</text>
+  <text x="760" y="178" font-size="9" fill="#444488">Vpp:3.3V</text>
+
+</svg>
