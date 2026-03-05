@@ -1,0 +1,82 @@
+# Hi, I'm Gunny 👋
+
+---
+
+## 🛠 Tech Stack
+
+**Language**
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
+
+**MCU & Hardware**
+
+![STM32](https://img.shields.io/badge/STM32-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat&logo=raspberrypi&logoColor=white)
+![ARM](https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=flat&logo=arm&logoColor=white)
+
+**Protocol / Interface**
+
+![UART](https://img.shields.io/badge/UART-555555?style=flat)
+![SPI](https://img.shields.io/badge/SPI-555555?style=flat)
+![I2C](https://img.shields.io/badge/I2C-555555?style=flat)
+![CAN](https://img.shields.io/badge/CAN-555555?style=flat)
+![Bluetooth](https://img.shields.io/badge/Bluetooth-0082FC?style=flat&logo=bluetooth&logoColor=white)
+![Wi-Fi](https://img.shields.io/badge/Wi--Fi-0082FC?style=flat&logo=wifi&logoColor=white)
+
+**OS / Framework**
+
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-8CC84B?style=flat)
+![Buildroot](https://img.shields.io/badge/Buildroot-262577?style=flat)
+![Embedded Linux](https://img.shields.io/badge/Embedded_Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat&logo=qt&logoColor=white)
+
+**Tools**
+
+![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudio&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![EasyEDA](https://img.shields.io/badge/EasyEDA-1765F6?style=flat)
+![ST-Link](https://img.shields.io/badge/ST--Link-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
+![Oscilloscope](https://img.shields.io/badge/Oscilloscope-555555?style=flat)
+![Logic Analyzer](https://img.shields.io/badge/Logic_Analyzer-555555?style=flat)
+
+---
+
+## 🚀 Projects
+
+### Firmware
+
+| 프로젝트 | 설명 | 태그 | 링크 |
+|---|---|---|---|
+| DRONE | 드론 프로젝트 | `C` `STM32` `CMake` `HAL` `UART` `Lo-Ra` | [Git(X)](https://github.com/gitgunny/drone) |
+| STM32F103RB_NUCLEO_BSP | STM32F103RB Nucleo 보드용 BSP | `C` `STM32` `CMake` `HAL` `UART` `DMA` | [Git](https://github.com/gitgunny/stm32f103rb_nucleo_bsp) |
+| APP_CLI | UART 기반 CLI 모듈 | `C` `UART` `DMA` | [Git](https://github.com/gitgunny/app_cli) |
+| STM32F103_Doorlock_IoT | UART 패킷 분석을 통한 도어락 IoT 원격 제어 | `C` `STM32` `UART` `Bluetooth` `Wi-Fi` `Reverse Engineering` | [Git](https://github.com/gitgunny/STM32F103_Doorlock_IoT_SHS-6601) / [Blog](https://gun-ny.tistory.com/132) |
+| AC Auto Controller | 차량 데이터 기반 지능형 에어컨 부하 제어 모듈 | `C` `ESP32` `CAN` `FreeRTOS` `PCB` | [Blog](https://gun-ny.tistory.com/133) |
+| Mohave AC Status Module | 모하비 아날로그 공조 신호 파싱 및 안드로이드 올인원 공조기 상태 표시 | `C` `ATmega` `UART` `Analog` `PCB` | [Blog](https://gun-ny.tistory.com/82) |
+
+### System Software
+
+| 프로젝트 | 설명 | 태그 | 링크 |
+|---|---|---|---|
+| Buildroot_RPi5_Qt_GUI | Buildroot 기반 커스텀 리눅스 환경 구축 및 Qt 디지털 계기판 | `C++` `Qt` `QML` `Buildroot` `Embedded Linux` `CAN` `SPI` | [Git](https://github.com/gitgunny/Buildroot_RPi5_Qt_GUI) / [Blog](https://gun-ny.tistory.com/134) |
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gitgunny&show_icons=true&theme=dark&hide_border=true)
+
+---
+
+## 📺 YouTube / 📝 Blog
+
+실제 동작 영상과 프로젝트 작업기를 확인할 수 있습니다.
+
+| | 링크 |
+|---|---|
+| 📺 YouTube | [youtube.com/@gun-ny](https://www.youtube.com/@gun-ny) |
+| 📝 Blog | [gun-ny.tistory.com](https://gun-ny.tistory.com) |
