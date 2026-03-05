@@ -83,6 +83,8 @@
 
 <div align="center">
 
-![footer](./footer.svg)
+![footer](https://capsule-render.vercel.app/api?type=rect&color=0,0,0,100&height=60&text=01000111%2001010101%2001001110%2001001110%2001011001&fontSize=13&fontColor=00ff41&animation=fadeIn)
+
+<!-- ![footer](./footer.svg) -->
 
 </div>
