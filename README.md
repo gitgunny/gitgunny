@@ -4,6 +4,8 @@
 
 </div>
 
+<br>
+
 # 🛠 Tech Stack
 
 **Language**
@@ -80,6 +82,8 @@
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0033?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@gun-ny)
 [![Blog](https://img.shields.io/badge/Tistory-EB531F?style=for-the-badge&logo=tistory&logoColor=white)](https://gun-ny.tistory.com)
+
+<br>
 
 <div align="center">
 
