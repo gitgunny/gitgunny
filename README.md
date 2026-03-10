@@ -44,6 +44,7 @@
 ![ST-Link](https://img.shields.io/badge/ST--Link-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![Oscilloscope](https://img.shields.io/badge/Oscilloscope-555555?style=for-the-badge)
 ![Logic Analyzer](https://img.shields.io/badge/Logic_Analyzer-555555?style=for-the-badge)
+<br>
 
 # 🚀 Projects
 
@@ -71,6 +72,7 @@
 | 프로젝트 | 설명 | 태그 | 링크 |
 |---|---|---|---|
 | Buildroot_RPi5_Qt_GUI | Buildroot 기반 커스텀 리눅스 환경 구축 및 Qt 디지털 계기판 | `C++` `Qt` `QML` `Buildroot` `Embedded Linux` `CAN` `SPI` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/Buildroot_RPi5_Qt_GUI) [![Blog](https://img.shields.io/badge/-EB531F?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/134) [![YouTube](https://img.shields.io/badge/-FF0033?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/eqxOk7hX7l4) [![PPT](https://img.shields.io/badge/PPT-D04423?style=flat&logoColor=white)](./Docs/...)(X) |
+<br>
 
 # 📡 Links
 
