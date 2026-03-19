@@ -55,12 +55,12 @@
 
 | 프로젝트 | 설명 | 태그 | 링크 |
 |---|---|---|---|
-| STM32_BSP_DRONE | (드론 프로젝트 진행 예정)(X) | `C` `STM32` `CMake` `HAL` `TIM` `UART` `Motor Control` `MPU6050` `Lo-Ra` | (X) |
-| STM32_BSP_CLI | UART 기반 CLI 모듈 | `C` `STM32` `CMake` `UART` `DMA` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/stm32_bsp_cli)  |
-| STM32F103RB_NUCLEO_BSP | STM32F103RB Nucleo 보드용 BSP | `C` `STM32` `CMake` `HAL` `UART` `DMA` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/stm32f103rb_nucleo_bsp) |
 | AC Auto Controller | 차량 데이터 기반 지능형 에어컨 부하 제어 모듈 | `C` `ESP32` `CAN` `FreeRTOS` `PCB` | [![Blog](https://img.shields.io/badge/-EB531F?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/133) [![YouTube](https://img.shields.io/badge/-FF0033?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/JiHXOkunCxU) [![PPT](https://img.shields.io/badge/PPT-D04423?style=flat&logoColor=white)](./Docs/...)(X) |
 | KIA Mohave AC Status Module | 모하비 공조 신호 파싱 및 안드로이드 올인원 공조기 상태 표시 | `C` `ATmega` `ESP32` `STM32` `UART` `SPI` `PCB` | [![Blog](https://img.shields.io/badge/-EB531F?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/82) [![YouTube](https://img.shields.io/badge/-FF0033?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/QrPpHxcSz7M) [![PPT](https://img.shields.io/badge/PPT-D04423?style=flat&logoColor=white)](./Docs/...)(X) |
 | STM32F103_Doorlock_IoT | UART 패킷 분석을 통한 도어락 IoT 원격 제어 | `C` `STM32` `ESP AT` `UART` `Bluetooth` `Wi-Fi` `Reverse Engineering` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/STM32F103_Doorlock_IoT_SHS-6601) [![Blog](https://img.shields.io/badge/-EB531F?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/132) [![YouTube](https://img.shields.io/badge/-FF0033?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/LQYAwjEyFG4) [![PPT](https://img.shields.io/badge/PPT-D04423?style=flat&logoColor=white)](./Docs/...)(X) |
+| STM32_BSP_CLI | UART 기반 CLI 모듈 | `C` `STM32` `CMake` `UART` `DMA` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/stm32_bsp_cli)  |
+| STM32F103RB_NUCLEO_BSP | STM32F103RB Nucleo 보드용 BSP | `C` `STM32` `CMake` `HAL` `UART` `DMA` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/stm32f103rb_nucleo_bsp) |
+| STM32_BSP_DRONE | (드론 프로젝트 진행 중) | `C` `STM32` `CMake` `HAL` `TIM` `UART` `Motor Control` `BMI270` `Lo-Ra` | (X) |
 
 <!-- [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/...) -->
 
