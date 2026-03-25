@@ -63,6 +63,21 @@
 | STM32F103RB_NUCLEO_BSP | STM32F103RB Nucleo 보드용 BSP 학습 | `C` `STM32` `CMake` `HAL` `UART` `DMA` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/stm32f103rb_nucleo_bsp) |
 | STM32_BSP_DRONE | (드론 프로젝트 진행 중) | `C` `STM32` `CMake` `HAL` `TIM` `UART` `Motor Control` `BMI270` `RF` `Lo-Ra` | (X) |
 
+## System Software
+
+| 프로젝트 | 설명 | 태그 | 링크 |
+|---|---|---|---|
+| 시스템 소프트웨어 포트폴리오 | 핵심 시스템 소프트웨어 포트폴리오 PPT | `System Software` | [![PPT](https://img.shields.io/badge/PPT-D04423?style=flat&logoColor=white)](./docs/박건희_2_시스템_소프트웨어_전체_포트폴리오.pdf) |
+| Buildroot_RPi5_Qt_GUI | Buildroot 기반 커스텀 리눅스 환경 구축 및 Qt 디지털 계기판 | `C++` `Qt` `QML` `Buildroot` `Embedded Linux` `CAN` `SPI` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/Buildroot_RPi5_Qt_GUI) [![Blog](https://img.shields.io/badge/-EB531F?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/134) [![YouTube](https://img.shields.io/badge/-FF0033?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/eqxOk7hX7l4) [![PPT](https://img.shields.io/badge/PPT-D04423?style=flat&logoColor=white)](./docs/박건희_2-1_디지털_클러스터_포트폴리오.pdf) |
+
+## Other Projects
+
+| 프로젝트 | 설명 | 태그 | 링크 |
+|---|---|---|---|
+| CAN to Analog Converter | 기타 프로젝트 설명 1 | `C` `ESP32` | [![Blog](https://img.shields.io/badge/-EB531F?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/99) [![YouTube](https://img.shields.io/badge/-FF0033?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/qrIerSRAcXw) |
+| BMW S1000RR 가변배기 서보모터 컨트롤러 모듈 | 기타 프로젝트 설명 2 | `C` `ATmega` | [![Blog](https://img.shields.io/badge/-EB531F?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/67) [![YouTube](https://img.shields.io/badge/-FF0033?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/GQyT_WmpIvw) |
+| 아이오닉 하이브리드 열선 통풍 메모리 모듈 | 기타 프로젝트 설명 3 | `C` `ATmega` | [![Blog](https://img.shields.io/badge/-EB531F?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/52) [![YouTube](https://img.shields.io/badge/-FF0033?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/dUudTKyaeBM) |
+
 <!-- [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/...) -->
 
 <!-- [![Blog](https://img.shields.io/badge/-EB531F?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/...) -->
@@ -70,13 +85,6 @@
 <!-- [![YouTube](https://img.shields.io/badge/-FF0033?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/...) -->
 
 <!-- [![PPT](https://img.shields.io/badge/PPT-D04423?style=flat&logoColor=white)](./docs/...) -->
-
-## System Software
-
-| 프로젝트 | 설명 | 태그 | 링크 |
-|---|---|---|---|
-| 시스템 소프트웨어 포트폴리오 | 핵심 시스템 소프트웨어 포트폴리오 PPT | `System Software` | [![PPT](https://img.shields.io/badge/PPT-D04423?style=flat&logoColor=white)](./docs/박건희_2_시스템_소프트웨어_전체_포트폴리오.pdf) |
-| Buildroot_RPi5_Qt_GUI | Buildroot 기반 커스텀 리눅스 환경 구축 및 Qt 디지털 계기판 | `C++` `Qt` `QML` `Buildroot` `Embedded Linux` `CAN` `SPI` | [![Git](https://img.shields.io/badge/-181717?style=flat&logo=github&logoColor=white)](https://github.com/gitgunny/Buildroot_RPi5_Qt_GUI) [![Blog](https://img.shields.io/badge/-EB531F?style=flat&logo=tistory&logoColor=white)](https://gun-ny.tistory.com/134) [![YouTube](https://img.shields.io/badge/-FF0033?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/eqxOk7hX7l4) [![PPT](https://img.shields.io/badge/PPT-D04423?style=flat&logoColor=white)](./docs/박건희_2-1_디지털_클러스터_포트폴리오.pdf) |
 
 <br>
 
